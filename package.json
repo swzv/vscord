@@ -402,8 +402,8 @@
                 "properties": {
                     "vscord.status.image.large.idle.key": {
                         "type": "string",
-                        "default": "https://raw.githubusercontent.com/swzv/vscord/main/assets/icons/idle-{app_id}.png",
-                        "description": "The image url to use when idling"
+                        "default": "{app_id}",
+                        "description": "The image key to use when idling (register as a Discord Rich Presence asset)"
                     },
                     "vscord.status.image.large.idle.text": {
                         "type": "string",
@@ -412,8 +412,8 @@
                     },
                     "vscord.status.image.large.viewing.key": {
                         "type": "string",
-                        "default": "https://raw.githubusercontent.com/swzv/vscord/main/assets/icons/{lang}.png",
-                        "description": "The image url to use when viewing a file."
+                        "default": "{lang}",
+                        "description": "The image key to use when viewing a file (register as a Discord Rich Presence asset)"
                     },
                     "vscord.status.image.large.viewing.text": {
                         "type": "string",
@@ -422,8 +422,8 @@
                     },
                     "vscord.status.image.large.editing.key": {
                         "type": "string",
-                        "default": "https://raw.githubusercontent.com/swzv/vscord/main/assets/icons/{lang}.png",
-                        "description": "The image url to use when editing a file."
+                        "default": "{lang}",
+                        "description": "The image key to use when editing a file (register as a Discord Rich Presence asset)"
                     },
                     "vscord.status.image.large.editing.text": {
                         "type": "string",
@@ -432,8 +432,8 @@
                     },
                     "vscord.status.image.large.debugging.key": {
                         "type": "string",
-                        "default": "https://raw.githubusercontent.com/swzv/vscord/main/assets/icons/debugging.png",
-                        "description": "The image url to use when debugging."
+                        "default": "debugging",
+                        "description": "The image key to use when debugging (register as a Discord Rich Presence asset)"
                     },
                     "vscord.status.image.large.debugging.text": {
                         "type": "string",
@@ -442,8 +442,8 @@
                     },
                     "vscord.status.image.large.notInFile.key": {
                         "type": "string",
-                        "default": "https://raw.githubusercontent.com/swzv/vscord/main/assets/icons/idle-{app_id}.png",
-                        "description": "The image url to use when you are not in a file."
+                        "default": "{app_id}",
+                        "description": "The image key to use when you are not in a file (register as a Discord Rich Presence asset)"
                     },
                     "vscord.status.image.large.notInFile.text": {
                         "type": "string",
@@ -452,8 +452,8 @@
                     },
                     "vscord.status.image.small.idle.key": {
                         "type": "string",
-                        "default": "https://raw.githubusercontent.com/swzv/vscord/main/assets/icons/idle.png",
-                        "description": "The image url to use when idling."
+                        "default": "idle",
+                        "description": "The image key to use when idling (register as a Discord Rich Presence asset)"
                     },
                     "vscord.status.image.small.idle.text": {
                         "type": "string",
@@ -462,8 +462,8 @@
                     },
                     "vscord.status.image.small.viewing.key": {
                         "type": "string",
-                        "default": "https://raw.githubusercontent.com/swzv/vscord/main/assets/icons/{app_id}.png",
-                        "description": "The image url to use when viewing a file."
+                        "default": "{app_id}",
+                        "description": "The image key to use when viewing a file (register as a Discord Rich Presence asset)"
                     },
                     "vscord.status.image.small.viewing.text": {
                         "type": "string",
@@ -472,8 +472,8 @@
                     },
                     "vscord.status.image.small.editing.key": {
                         "type": "string",
-                        "default": "https://raw.githubusercontent.com/swzv/vscord/main/assets/icons/{app_id}.png",
-                        "description": "The image url to use when editing a file."
+                        "default": "{app_id}",
+                        "description": "The image key to use when editing a file (register as a Discord Rich Presence asset)"
                     },
                     "vscord.status.image.small.editing.text": {
                         "type": "string",
@@ -482,8 +482,8 @@
                     },
                     "vscord.status.image.small.debugging.key": {
                         "type": "string",
-                        "default": "https://raw.githubusercontent.com/swzv/vscord/main/assets/icons/debugging.png",
-                        "description": "The image url to use when debugging."
+                        "default": "debugging",
+                        "description": "The image key to use when debugging (register as a Discord Rich Presence asset)"
                     },
                     "vscord.status.image.small.debugging.text": {
                         "type": "string",
@@ -492,8 +492,8 @@
                     },
                     "vscord.status.image.small.notInFile.key": {
                         "type": "string",
-                        "default": "https://raw.githubusercontent.com/swzv/vscord/main/assets/icons/idle.png",
-                        "description": "The image url to use when you are not in a file."
+                        "default": "idle",
+                        "description": "The image key to use when you are not in a file (register as a Discord Rich Presence asset)"
                     },
                     "vscord.status.image.small.notInFile.text": {
                         "type": "string",
