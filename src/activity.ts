@@ -385,6 +385,7 @@ export const replaceAppInfo = (text: string): string => {
     const isCodium = appName.startsWith("VSCodium") || appName.startsWith("codium");
     const isAntigravity = appName.startsWith("Antigravity");
     const isCursor = appName.startsWith("Cursor");
+    const isDevin = appName.startsWith("Devin");
 
     const insiderAppName = isCodium ? "vscodium-insiders" : "vscode-insiders";
     let normalAppName;
@@ -393,6 +394,8 @@ export const replaceAppInfo = (text: string): string => {
         normalAppName = "cursor";
     } else if (isAntigravity) {
         normalAppName = "antigravity";
+    } else if (isDevin) {
+        normalAppName = "devin";
     } else if (isCodium) {
         normalAppName = "vscodium";
     } else {

@@ -8,6 +8,7 @@ export const getApplicationId = (config: ExtensionConfiguration) => {
         ["VSCodium", "1031067701474492496"],
         ["Antigravity", "1441771215290372156"],
         ["Cursor", "1376937466619232256"],
+        ["Devin", "1565129001473810555"],
         ["Custom", config.get(CONFIG_KEYS.App.Id)!]
     ]);
 
